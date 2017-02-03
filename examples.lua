@@ -78,7 +78,7 @@ function print_player_data()
 			local player_name = player:get_player_name()
 			local ip = minetest.get_player_ip(player_name)
 			if not ip then return end
-			hud_monitor.place("Your ip is " .. ip, "ip", player)
+			hud_monitor.place("Votre adresse ipv4 est " .. ip, "ip", player)
 		end
 
 		-- Shows player height above sea level
